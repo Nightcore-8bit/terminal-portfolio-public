@@ -196,7 +196,7 @@ Error generating stack: `+a.message+`
               opacity: 0;
             }
           }
-        `})]}):i==="matrix"?N.jsxs("div",{className:"fixed inset-0 pointer-events-none overflow-hidden z-40 opacity-20",children:[l.map(u=>N.jsx("div",{className:"absolute text-green-400 font-mono",style:{left:`${u.left}%`,top:`${u.startY}vh`,animationDelay:`${u.delay}s`,animationDuration:`${u.duration}s`,fontSize:`${u.fontSize}px`,willChange:"transform",animation:"matrix linear infinite"},children:u.character},u.id)),N.jsx("style",{children:`
+        `})]}):i==="matrix"?N.jsxs("div",{className:"fixed inset-0 pointer-events-none overflow-hidden z-40 opacity-20",children:[l.map(u=>N.jsx("div",{className:"absolute text-green-200 font-mono font-bold",style:{left:`${u.left}%`,top:`${u.startY}vh`,animationDelay:`${u.delay}s`,animationDuration:`${u.duration}s`,fontSize:`${u.fontSize+20}px`,willChange:"transform",animation:"matrix linear infinite"},children:u.character},u.id)),N.jsx("style",{children:`
           @keyframes matrix {
             0% {
               transform: translateY(0);
