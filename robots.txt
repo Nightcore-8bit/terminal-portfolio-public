@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nightcore-8bit.github.io/terminal-portfolio-public/sitemap.xml
